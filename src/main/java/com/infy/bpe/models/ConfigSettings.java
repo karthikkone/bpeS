@@ -49,7 +49,7 @@ public class ConfigSettings {
 	public void setSfTypeVDRule(String sfTypeVDRule) {
 		this.sfTypeVDRule = sfTypeVDRule;
 	}
-	private ArrayList<MetaData> metadataList;
+	private List<MetaData> metadataList;
 	
 
 	  
@@ -138,10 +138,10 @@ public class ConfigSettings {
 	public void setPort(int port) {
 		this.port = port;
 	}	
-	public ArrayList<MetaData> getMetadataList() {
+	public List<MetaData> getMetadataList() {
 		return metadataList;
 	}
-	public void setMetadataList(ArrayList<MetaData> metadataList) {
+	public void setMetadataList(List<MetaData> metadataList) {
 		this.metadataList = metadataList;
 	}
 }
